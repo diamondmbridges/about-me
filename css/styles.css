@@ -1,0 +1,51 @@
+body {
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25oOWd4MjU5bTdybXczdHJzOXN6bTNxZDl5Ym4wNGx0MzN0aWljZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/X49g2VRBdssUf491tr/giphy.gif");
+  background-repeat: repeat;
+  font-family: Iowan Old Style, Palatino Linotype, URW Palladio L, P052, sans-serif;
+  font-weight: 900;
+  padding: 50;
+
+}
+
+p {
+  max-width: 50ch;
+  margin: 0 auto;
+  font-weight: 800;
+  font-size: 1.3rem;
+  font-style: bold;
+  line-height: 1.7rem;
+  text-align: center;
+  transition: color 0.4s ease-in-out;
+  color: #edebe3
+}
+
+p:hover {
+  color: #af5de9;
+}
+
+/*I was struggling with the animation portion so I asked Claude AI to explain it to me in simpler terms, or rather, to dumb it down*/
+
+pre {
+  max-width: 50ch;
+  margin: 0 auto;
+  font-weight: 800;
+  font-size: 1.3rem;
+  font-style: bold;
+  line-height: 1.7rem;
+  text-align: center;
+  transition: color 0.4s ease-in-out;
+  color: #af5de9;
+
+}
+
+pre:hover {
+  color: #edebe3;
+}
+
+.Div {
+  border: 10px outset #81b1fe;
+  font-style: italic;
+  background-color: #81b1fe;
+  text-align: center;
+  color: #000000
+}
